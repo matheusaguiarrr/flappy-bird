@@ -40,5 +40,38 @@ function createParDeBarreiras(height, abertura, x){
     this.setX(x)
 }
 
-const b = new createParDeBarreiras(700, 200, 400)
-document.querySelector('[wm-flappy]').appendChild(b.element)
+// const b = new createParDeBarreiras(700, 200, 400)
+// document.querySelector('[wm-flappy]').appendChild(b.element)
+
+function creatBarreiras(height, width, abertura, espaco, notificarPonto){
+    this.pares = [
+        new createParDeBarreiras(height, abertura, width),
+        new createParDeBarreiras(height, abertura, width + espaco),
+        new createParDeBarreiras(height, abertura, width + espaco * 2),
+        new createParDeBarreiras(height, abertura, width + espaco * 3)
+    ]
+
+    const deslocamento = 3
+    this.animar = () => {
+        this.pares.forEach(par => {
+            par.setX(par.getX() - deslocamento)
+
+            //Quando o elemento sair da área do jogo
+            if(par.getX() < -par.getLargura()){
+                par.setX(par.getX() + espaco * this.pares.length)
+                par.sortearAbertura()
+            }
+
+            const meio = width / 2
+            const cruzouMeio = par.getX() + deslocamento >= meio && par.getX() < meio
+            if(cruzouMeio) notificarPonto()
+        })
+    }
+}
+
+const barreiras = new creatBarreiras(700, 1200, 200, 400)
+const areaDoJogo = document.querySelector('[wm-flappy]')
+barreiras.pares.forEach(par => areaDoJogo.appendChild(par.element))
+setInterval(() => {
+    barreiras.animar()
+}, 20)
