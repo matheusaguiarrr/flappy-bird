@@ -7,6 +7,14 @@
     src: url('/fonts/pixel.ttf');
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
 [wm-flappy] {
     position: relative;
     border: 5px solid dodgerblue;
