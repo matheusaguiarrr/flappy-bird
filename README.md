@@ -17,7 +17,7 @@
 
 <h2 id="layout">🎨 Layout</h2>
 
-https://github.com/matheusaguiarrr/clone-spotify/assets/106553412/286b272c-f5c9-4921-90fa-738fc8eaf2fc
+https://github.com/user-attachments/assets/d9278459-2fe6-4465-8a8d-94b81bff0758
 
 <p align="center">
     
