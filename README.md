@@ -43,7 +43,7 @@ https://github.com/matheusaguiarrr/clone-spotify/assets/106553412/286b272c-f5c9-
 Como clonar o projeto:
 
 ```bash
-https://github.com/matheusaguiarrr/clone-spotify.git
+https://github.com/matheusaguiarrr/flappy-bird.git
 ```
 
 <h3>Começando</h3>
@@ -51,7 +51,7 @@ https://github.com/matheusaguiarrr/clone-spotify.git
 Como começar o projeto:
 
 ```bash
-cd clone-spotify
+cd flappy-bird
 ```
 
 <h2 id="contribute">📫 Contribuindo</h2>
