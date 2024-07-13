@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">🎶 Clone Spotify</h1>
+<h1 align="center" style="font-weight: bold;">Flappy Bird 🐦</h1>
 
 <p align="center">
  • <a href="#tech">Tecnologias</a> • 
@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-    <b>Este é um projeto desenvolvido no curso de desenvolvimento web do Jorge Sant' Ana na plataforma Udemy, o mesmo é um clone de uma antiga interface do Spotify</b>
+    <b>Este jogo do Flappy Bird foi um desafio desenvolvido na seção 24 (Intregando HTML, CSS e JavaScript) do curso de PHP 7 da Cod3r na plataforma Udemy.</b>
 </p>
 
 <p align="center">
-     <a href="https://matheusaguiarrr.github.io/clone-spotify/" target="_blank">📱 Visite o projeto</a>
+     <a href="https://matheusaguiarrr.github.io/flappy-bird/" target="_blank">📱 Visite o projeto</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
@@ -29,7 +29,7 @@ https://github.com/matheusaguiarrr/clone-spotify/assets/106553412/286b272c-f5c9-
   <br>
   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
   <br>
-  <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" target="_blank"></a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" target="_blank"></a>
 
 <h2 id="started">🚀 Executando o projeto na sua máquina local</h2>
 
